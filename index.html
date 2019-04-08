@@ -23,17 +23,44 @@
 <body>
     <header class="header header-transparent" id="header-main">
         <!-- Main navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark bg-dark" id="navbar-main">
+        <!-- <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark bg-dark" id="navbar-main">
             <div class="container px-lg-0">
-                <!-- Logo -->
+                
                 <a class="navbar-brand mr-lg-5" href="./index.html">
                     <img alt="Image placeholder" src="./assets/img/hackchain/hacklogo2.png" id="navbar-logo" style="height: 100px;">
                 </a>
-        </nav>
+        </nav> -->
+        <!-- Navbar primary -->
+<nav class="navbar navbar-horizontal navbar-expand-lg navbar-dark bg-primary mt-4">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img alt="Image placeholder" src="./assets/img/hackchain/hacklogo2.png" id="navbar-logo" style="height: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-primary">
+                
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#register">Register</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#sponsor">Sponsors</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
     </header>
     <div class="main-content">
         <!-- Header (v8) -->
-        <section class="slice slice-xl bg-cover bg-size--cover" data-offset-top="#header-main" style="background-image: url(./assets/img/backgrounds/hackBack.jpg); background-position: center 30%; background-repeat: no-repeat; background-size: auto;">
+        <section class="slice slice-xl bg-cover bg-size--cover" data-offset-top="#header-main" style="background-image: url(./assets/img/backgrounds/hackBack.jpg); background-position: center 30%; background-repeat: no-repeat; background-size: cover;">
             <span class="mask bg-gradient-primary opacity-6"></span>
             <div class="container-fluid py-6 py-lg-9">
                 <div class="row">
@@ -69,20 +96,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <ul class="nav justify-content-center">
+                        <ul class="nav justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link h3 px-4" href="https://www.instagram.com/webpixelsofficial" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="nav-link h3 px-4" href="https://www.instagram.com/uwblockchain" target="_blank"><i class="fab fa-instagram"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link h3 px-4" href="https://www.facebook.com/webpixels" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a class="nav-link h3 px-4" href="https://www.facebook.com/BlockchainSocietyUW/" target="_blank"><i class="fab fa-facebook"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link h3 px-4" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i></a>
+                                <a class="nav-link h3 px-4" href="https://twitter.com/uwblockchain" target="_blank"><i class="fab fa-twitter"></i></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link h3 px-4" href="https://dribbble.com/webpixels" target="_blank"><i class="fab fa-dribbble"></i></a>
-                            </li>
-                        </ul> -->
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -169,7 +193,7 @@
         </section>
 
         <!-- Features (v19) -->
-        <section class="slice slice-lg bg-bg-primary bg-cover bg-size--cover" style=" background-image: url(../../assets/img/backgrounds/img-6.jpg);">
+        <section id = "schedule" class="slice slice-lg bg-bg-primary bg-cover bg-size--cover" style=" background-image: url(../../assets/img/backgrounds/img-6.jpg);">
             <span class="mask bg-primary opacity-7"></span>
             <div class="container">
                 <div class="mb-4">
@@ -245,7 +269,7 @@
 
     </section>
     <!-- Features (v2) -->
-    <section class="slice slice-lg">
+    <section id = "about" class="slice slice-lg">
         <div class="container">
             <div class="row row-grid justify-content-around align-items-center">
                 <div class="col-lg-5">
@@ -299,7 +323,7 @@
         </div>
     </section>
     <!-- Call to action (v6) -->
-    <section class="slice slice-xl bg-primary bg-cover bg-size--cover" style="background-image: url('../../assets/img/backgrounds/img-6.jpg');">
+    <section id = "register" class="slice slice-xl bg-primary bg-cover bg-size--cover" style="background-image: url('../../assets/img/backgrounds/img-6.jpg');">
         <span class="mask bg-primary opacity-7"></span>
         <div class="container py-6">
             <div class="row justify-content-center align-items-center">
@@ -317,16 +341,32 @@
         </div>
     </section>
     <!-- Call to action (v5) -->
-    <section class="slice slice-lg">
-        <a href="#" class="tongue" data-scroll-to>
-            <i class="fas fa-"></i>
-        </a>
+    <section id = "sponsor" class="slice slice-lg bg-gradient-success" >
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-8 text-center">
-                    <h3 class="font-weight-400">Meet our sponsors!</h3>
+                    <h3 class="font-weight-400 text-white">Meet our sponsors!</h3>
+                    <br>
                 </div>
             </div>
+        </div>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-6">
+                    <img class = "align-items-center" src = "./assets/img/hackchain/alfaenzo.png" style="height: 40%;">
+                </div>
+                <div class = "col-6 align-items-center">
+                    <img class = "align-items-center" src = "./assets/img/hackchain/stably.png" style="height: 40%;">
+                </div>
+            </div>
+            <div class = "row">
+                    <div class = "col-6">
+                        <img class = "align-items-center" src = "./assets/img/hackchain/uwcomotion.png" style="height: 40%;">
+                    </div>
+                    <div class = "col-6 ">
+                        <img class = "align-items-center" src = "./assets/img/hackchain/mbelt.png" style="height: 40%;">
+                    </div>
+                </div>
         </div>
     </section>
     
@@ -341,7 +381,7 @@
                         <p>This hackathon is brought to you by Blockchain Society NW in collaboration with the top universities from around the world that aim to bring you the best blockchain education possible.</p>
                     </div>
                     <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">Back to top</h6>
+                            <a href="#"><h6 class="heading mb-3">Back to top</h6></a>
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-md-between py-4 mt-4 delimiter-top">
