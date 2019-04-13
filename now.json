@@ -6,7 +6,7 @@
         "enabled": true,
         "silent": true
     },
-    "name": "blockhackschicago-website",
+    "name": "hackchain-chicago-website",
     "regions": ["all"],
     "version": 2
 }
