@@ -1,8 +1,10 @@
 # Hackchain-Chicago
-Website development for the Chicago hackathon hosted by UW Blockchain Society
 
-author: Rayyan Hussain.
-organization: Blockchain Society NW.
-github: https://github.com/rayyanh .
-linkedin: https://linkedin.com/in/rayyanhussain .
-Created using Purpose UI webskit.
+Website development for the Chicago hackathon hosted by UW Blockchain Society.
+
+    Author:         Rayyan Hussain.
+    Organization:   Blockchain Society NW.
+    GitHub:         https://github.com/rayyanh
+    LinkedIn:       https://linkedin.com/in/rayyanhussain
+
+**Created using Purpose UI webskit.**

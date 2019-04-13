@@ -1,0 +1,12 @@
+{
+    // "alias": [],
+    "github": {
+        "autoAlias": true,
+        "autoJobCancelation": true,
+        "enabled": true,
+        "silent": true
+    },
+    "name": "blockhackschicago-website",
+    "regions": ["all"],
+    "version": 2
+}
