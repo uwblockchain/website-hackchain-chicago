@@ -7,6 +7,5 @@
         "silent": true
     },
     "name": "hackchain-chicago-website",
-    "regions": ["all"],
     "version": 2
 }
