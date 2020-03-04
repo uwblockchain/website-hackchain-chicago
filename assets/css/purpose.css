@@ -5370,6 +5370,7 @@ input[type=submit].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
+    color: #6e00ff;
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid #eff2f7;
