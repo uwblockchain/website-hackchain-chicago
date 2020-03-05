@@ -13317,7 +13317,7 @@ button.bg-white-dark:hover {
 
 .bg-gradient-light {
     background: -o-linear-gradient(40deg, #eff2f7 0, #eff0f7 100%)!important;
-    background: linear-gradient(50deg, #6e00ff, #6e00ff)!important
+    background: linear-gradient(50deg, #fafafa, #fafafa)!important
 }
 
 .bg-gradient-dark {
