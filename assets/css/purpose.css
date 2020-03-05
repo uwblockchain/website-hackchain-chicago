@@ -5360,6 +5360,21 @@ input[type=submit].btn-block {
     color: #fff
 }
 
+.schedule-event {
+    flex: 0 1 30%;
+    min-width: 100px;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.schedule-time {
+    flex: 0 1 30%;
+    min-width: 100px;
+    padding: 5px;
+    text-align: left;
+}
+
 .card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5371,9 +5386,9 @@ input[type=submit].btn-block {
     min-width: 0;
     word-wrap: break-word;
     color: #6e00ff;
-    background-color: #fff;
+    background-color: #fafafa;
     background-clip: border-box;
-    border: 1px solid #eff2f7;
+    border: 1px solid #fafafa;
     border-radius: .375rem
 }
 
@@ -5424,7 +5439,7 @@ input[type=submit].btn-block {
 .card-header {
     padding: 1rem 1.5rem;
     margin-bottom: 0;
-    background-color: white;
+    background-color: #fafafa;
 }
 
 .card-header:first-child {
@@ -13302,7 +13317,7 @@ button.bg-white-dark:hover {
 
 .bg-gradient-light {
     background: -o-linear-gradient(40deg, #eff2f7 0, #eff0f7 100%)!important;
-    background: linear-gradient(50deg, #ffffff, #ffffff)!important
+    background: linear-gradient(50deg, #6e00ff, #6e00ff)!important
 }
 
 .bg-gradient-dark {
