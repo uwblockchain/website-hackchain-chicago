@@ -4936,7 +4936,7 @@ input[type=submit].btn-block {
 }
 
 .navbar {
-    padding: .75rem 1rem
+    padding: 0.75rem rem
 }
 
 .navbar,
@@ -7639,7 +7639,8 @@ button.bg-primary:hover {
 }
 
 .bg-secondary {
-    background-color: #eff2f7!important
+    line-height: 2em;
+    background-color: #5800cc!important
 }
 
 a.bg-secondary:focus,
