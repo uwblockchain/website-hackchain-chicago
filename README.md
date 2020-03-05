@@ -14,5 +14,8 @@ Website development for the Chicago hackathon hosted by UW Blockchain Society.
     Organization:   UW Blockchain Society
     GitHub:         https://github.com/ipchelsea
     LinkedIn:       https://www.linkedin.com/in/ipchelsea/
-
-
+    
+    Author:         John Xie.
+    Organization:   UW Blockchain Society
+    GitHub:         https://github.com/GentlestElm29
+    LinkedIn:       https://www.linkedin.com/in/jxie29/
