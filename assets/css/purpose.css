@@ -7,7 +7,29 @@
     ~~Created using Purpose UI webskit.
 */
 
+.topnav {
+    float:right;
+    text-align: right;
+    padding-left:30px;
+    overflow: hidden;
+    background-color: transparent;
+}
 
+.topnav a {
+    display:block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid white;
+}
+  
+.topnav a.active {
+    border-bottom: 3px solid white;
+}
 
 .menu
 {
@@ -17,7 +39,7 @@
   margin: -100px 0 0 0;
   padding: 70px;
   padding-top: 125px;
-  right: -100px;}
+  right: -200px;}
 
 @import url(https://fonts.googleapis.com/css?family=Nunito:300,400,600,700);
 :root {
@@ -81,7 +103,7 @@ section {
 
 body {
     margin: 0;
-    font-family: naruito, sans-serif;
+    font-family: codebold, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
@@ -107,7 +129,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
+    margin-top: 3.5rem;
     margin-bottom: .5rem
 }
 
@@ -4875,7 +4897,7 @@ input[type=submit].btn-block {
 
 .nav-tabs .nav-link {
     border: 1px solid transparent;
-    border-top-left-radius: .25rem;
+    border-top-left-radius: .5rem;
     border-top-right-radius: .25rem
 }
 
@@ -4938,7 +4960,7 @@ input[type=submit].btn-block {
 }
 
 .navbar {
-    padding: 0.75rem rem
+    padding: 0.75rem 5rem;
 }
 
 .navbar,
@@ -4958,7 +4980,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-brand {
-    font-family:oswald;
+    font-family: oswald;
     display: inline-block;
     padding-top: 2.4875rem;
     padding-bottom: .2875rem;
