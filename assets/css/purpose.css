@@ -2787,10 +2787,10 @@ textarea.form-control.is-invalid {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: .75rem 1.75rem;
+    padding: 0.75rem 2.75rem;
     font-size: 1rem;
     line-height: 2.5;
-    border-radius: .25rem;
+    border-radius: 2.25rem;
     -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -4958,11 +4958,12 @@ input[type=submit].btn-block {
 }
 
 .navbar-brand {
+    font-family:oswald;
     display: inline-block;
-    padding-top: .2875rem;
+    padding-top: 2.4875rem;
     padding-bottom: .2875rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
+    margin-right: 2rem;
+    font-size: 1.55rem;
     line-height: inherit;
     white-space: nowrap
 }
@@ -9271,7 +9272,7 @@ button.bg-white:hover {
 
 .mb-2,
 .my-2 {
-    margin-bottom: .5rem!important
+    margin-bottom: 1.5rem!important
 }
 
 .ml-2,
