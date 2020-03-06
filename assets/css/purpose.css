@@ -81,7 +81,7 @@ section {
 
 body {
     margin: 0;
-    font-family: Nunito, sans-serif;
+    font-family: naruito, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
@@ -7641,7 +7641,7 @@ button.bg-primary:hover {
 }
 
 .bg-secondary {
-    line-height: 4em;
+    line-height: 3em;
     background-color: #6e00ff!important
 }
 
@@ -20602,7 +20602,7 @@ textarea[resize=horizontal] {
         margin-right: .5rem
     }
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-top: .75rem;
+        padding-top: 3.75rem;
         padding-bottom: .75rem;
         border-radius: 0
     }
