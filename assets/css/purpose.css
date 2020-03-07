@@ -15,6 +15,8 @@
     background-color: transparent;
 }
 
+
+
 .topnav a {
     display:block;
     padding: 14px 16px;
@@ -129,7 +131,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 3.5rem;
+    margin-top: 0.5rem;
     margin-bottom: .5rem
 }
 
@@ -495,6 +497,7 @@ h5 {
 
 .h6,
 h6 {
+    color:#6e00ff;
     font-size: 1rem
 }
 
@@ -13482,7 +13485,7 @@ button.bg-translucent-white:hover {
 }
 
 .bg-section-secondary {
-    background-color: #fafbfe!important
+    background-color: #b588f7!important
 }
 
 .bg-section-light {
