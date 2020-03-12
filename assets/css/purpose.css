@@ -18,6 +18,11 @@
     width: auto;
 }
 
+.card-body div {
+    width: 66px;
+    height:  fit-content;
+}
+
 .topnav {
     float:right;
     text-align: right;
