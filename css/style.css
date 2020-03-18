@@ -511,6 +511,11 @@ About
   box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
 }
 
+.thumbail iframe {
+  width:1440px;
+  height: 900px;
+}
+
 .about-img .img-block {
   position: absolute;
   content: "";
