@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,7 +39,11 @@
 
 
 <body id="body">
-
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+       Due to COVID 19,  we are transitioning to a virtual hackathon. We will continue
+       providing real-time updates here. Registration is now open!
+      </div>
     <!--  preloader start -->
     <div id="tb-preloader">
         <div class="tb-preloader-wave"></div>
@@ -112,7 +117,7 @@
                         </li> 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="mailto:info@uwblockchain.org">Contact</a>
                         </li>
                     </ul>
 
@@ -291,8 +296,11 @@
                         <i class="tf-ion-android-microphone"></i>
                         <h4 class="mt-3 mb-3">Social Initiatives Track</h4>
                         <div class="divider"></div>
-                        <p>Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!! </p>
-                    </div>
+                        <p>One of the issues hindering giving and aid is the lack of transparency, and, therefore, thereforeis a limited
+                            tracking or transparency available to determine exactly how th funds were used and who ultimately benefited.
+                            Donors are also becoming more results- and impact-focused, and   trust in the recipient organization is crucial to their giving
+                            decision-making. </p>
+                        </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
@@ -746,10 +754,38 @@
                                 style="visibility: visible; animation-name: fadeIn;">
                                 <br>
                                 <br>
+                                <h3>Are only students allowed to join?</h3>
+                                <p> Yes, we allow students all over the world to join!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-9 col-md-offset-1 wow fadeIn animated"
+                                style="visibility: visible; animation-name: fadeIn;">
+                                <br>
+                                <br>
                                 <h3>Is there a channel to meet other students virtually?</h3>
                                 <p>Join our 
                                     <a href="https://discord.gg/2PVZnWd"> <span class="red"><b>Discord Channel </b></span> </a>
                                     to connect and form groups with other students!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-md-offset-1 wow fadeIn animated"
+                                style="visibility: visible; animation-name: fadeIn;">
+                                <br>
+                                <br>
+                                <h3>How should I come up with an idea?</h3>
+                                <p>
+                                    <li> What is the problem your organization is trying to solve?
+                                    Who are your end users?</li>
+                                    <li>How does your initiative use blockchain, and why is blockchain a good technology for this problem?</li>
+                                    <li>What technologies or services are available to solve this problem, and how is blockchain a better solution?</li>
+                                    <li>What is your initiative’s intended impact? How do you measure it?</li>
+                                    <li>In what time frame do you think you will see meaningful
+                                    impact from your blockchain initiative?</li>
                                 </p>
                             </div>
                         </div>
@@ -1016,6 +1052,38 @@
             </div>
           </div>
 
+            <!-- Arda -->
+            <div class="col-lg-4 col-md-6">
+                <div class="speaker-block mb-5">
+                  <div class="img-block">
+                    <img src="teamimages/arda.jpg" alt="Arda" class="img-fluid">
+                    <ul class="list-inline speaker-social">
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/in/lawrence-fiesta/"><i class="tf-ion-social-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="speaker-info">
+                    <h4 class="mb-0 mt-3"><a href="speaker-single.html">Arda Yousefi</a></h4>
+                    <p>Project Manager</p>
+                  </div>
+                </div>
+            </div>
+
+             <!-- Angelina -->
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker-block mb-5">
+              <div class="img-block">
+                <img src="teamimages/.jpg" alt="Angelina" class="img-fluid">
+                <ul class="list-inline speaker-social">
+                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/lawrence-fiesta/"><i class="tf-ion-social-linkedin"></i></a></li>
+                </ul>
+              </div>
+              <div class="speaker-info">
+                <h4 class="mb-0 mt-3"><a href="speaker-single.html">Angelina Kuo</a></h4>
+                <p>Social Media Director</p>
+              </div>
+            </div>
+        </div>
+
           <!-- Lawrence -->
           <div class="col-lg-4 col-md-6">
             <div class="speaker-block mb-5">
@@ -1032,6 +1100,7 @@
             </div>
         </div>
   </section>
+  
     <!-- Section Start
     <section class="section sponsors">
         <div class="container">
@@ -1167,7 +1236,7 @@
 
                     <form action="#" class="sub-form mt-4 mb-3">
                         <input type="text" class="form-control" placeholder="Put your email address">
-                        <a href="#" class="btn bg-gradient-primary btn-rounded mt-3">Subscribe now</a>
+                        <a href="#" class="btn bg-gradient-warning btn-rounded mt-3">Subscribe now</a>
                     </form>
                     <p class="mt-3 text-white-50">We will only email you the latest updates regarding the event.</p>
 
@@ -1212,6 +1281,27 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
 
     <script src="js/script.js"></script>
+    <script>
+        // Get all elements with class="closebtn"
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+
+        // Loop through all close buttons
+        for (i = 0; i < close.length; i++) {
+        // When someone clicks on a close button
+        close[i].onclick = function(){
+
+            // Get the parent of <span class="closebtn"> (<div class="alert">)
+            var div = this.parentElement;
+
+            // Set the opacity of div to 0 (transparent)
+            div.style.opacity = "0";
+
+            // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+            setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+    </script>
 
 
 </body>
