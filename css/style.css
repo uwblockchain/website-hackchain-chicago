@@ -405,7 +405,7 @@ header
     position: absolute;
   }
   .header-bar {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -417,7 +417,7 @@ header
     position: absolute;
   }
   .header-bar {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -429,7 +429,7 @@ header
     position: absolute;
   }
   .header-bar {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -441,7 +441,7 @@ header
     position: absolute;
   }
   .header-bar {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -1327,7 +1327,7 @@ Blog
 footer
 -------------------------------*/
 .footer {
-  background: url("../images/bg/footer-bg.jpg") no-repeat;
+  background-color:#6e00ff;
   background-image: cover;
   padding-bottom: 35px;
 }
