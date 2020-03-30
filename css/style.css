@@ -593,7 +593,7 @@ About
   line-height: -3;
 }
 
-.stroke-text {
+.stroke-text-white {
   
   -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: white;
