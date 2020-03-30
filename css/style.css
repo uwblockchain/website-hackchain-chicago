@@ -259,6 +259,34 @@ Common
   padding: 220px 0px 200px 0px;
 }
 
+.content-row {
+  margin-top: 30px;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+hr.colored {
+  border-color: #ffc153;
+
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border : 0;
+  border-top: 1px solid #eee;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .btn {
   line-height: 1;
   padding: 16px 32px;
@@ -559,6 +587,16 @@ About
   color: transparent;
   -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: #6e00ff;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: -3;
+}
+
+.stroke-text {
+  
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: white;
   font-size: 60px;
   font-weight: 800;
   text-transform: uppercase;
