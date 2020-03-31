@@ -37,6 +37,11 @@ body {
   overflow-x: hidden;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 .alert {
   padding: 20px;
   background-color:#36b37e; /* Red */
