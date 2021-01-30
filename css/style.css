@@ -899,6 +899,37 @@ Features
 /*-------------------------------
 Team
 -------------------------------*/
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  background-color:rgba(59, 29, 130, 0.5);
+  display: flex;
+  padding: 20px;
+}
+
+.carousel-inner .carousel-item .carousel-item-layout{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-item-picture{
+  width: 50%;
+  height: 100%;
+  display:flex;
+}
+
+.carousel-item-description{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .speaker-block .img-block {
   position: relative;
 }
