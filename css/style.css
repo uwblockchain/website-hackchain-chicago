@@ -234,7 +234,7 @@ Common
 
 .section-heading p {
   margin: 0 0 10px;
-  
+
 }
 
 .form-control {
@@ -599,7 +599,7 @@ About
 }
 
 .stroke-text-white {
-  
+
   -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: white;
   font-size: 60px;
