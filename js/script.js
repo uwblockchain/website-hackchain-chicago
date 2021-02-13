@@ -45,9 +45,9 @@ $(document).ready(function() {
 
 // Count Down JS
  $('#simple-timer').syotimer({
-    year: 2020,
-    month: 5,
-    day: 22,
+    year: 2021,
+    month: 4,
+    day: 17,
     hour: 7,
     minute: 1
 });
