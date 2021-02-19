@@ -299,7 +299,7 @@ hr {
   transition: all .2s ease-in-out;
   will-change: box-shadow;
   font-size: 13px;
-  /*border-radius: 0px;*/
+  border-radius: 0px;
   letter-spacing: .2em;
   text-transform: uppercase;
   border: 2px solid transparent;
@@ -312,9 +312,9 @@ hr {
 }
 
 .btn-hero {
-  background: #FFF48F;
-  color: #394989;
-  border-color: #FFF48F;
+  background: #ff007a;
+  color: #ffffff;
+  border-color: #ff007a;
 }
 
 .btn-hero:hover {
@@ -393,10 +393,6 @@ header
   border-radius: 50px;
 }
 
-.sticky {
-  position: sticky;
-}
-
 @media (min-width: 768px) {
   .top-nav-collapse {
     text-shadow: none;
@@ -469,7 +465,6 @@ header
   }
   .navbar-nav .dropdown-menu {
     position: absolute;
-    position: fixed;
   }
   .header-bar {
     margin-bottom: 10px;
@@ -482,7 +477,6 @@ header
   }
   .navbar-nav .dropdown-menu {
     position: absolute;
-    position: fixed;
   }
   .header-bar {
     margin-bottom: 10px;
@@ -494,7 +488,6 @@ header
     padding: 10px 18px !important;
   }
   .navbar-nav .dropdown-menu {
-    position: fixed;
     position: absolute;
   }
   .header-bar {
@@ -508,55 +501,34 @@ header
   }
   .navbar-nav .dropdown-menu {
     position: absolute;
-    position: fixed;
   }
   .header-bar {
     margin-bottom: 10px;
   }
 }
 
-.header-bar {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  z-index: 5;
-}
-
 /*-------------------------------
 banner
 -------------------------------*/
 .section-banner {
-  
   min-height: 700px;
   position: relative;
   background: #eee;
   background: url("../images/banner/bona.png") no-repeat;
   background-position: 65% 50%;
   background-size: cover;
-  
-  /*
-  position: relative;
-  width: 2039px;
-  height: 2275px;
-  left: 1668px;
-  top: 0px;
-
-  background: url(343120-PAKXUK-235.jpg);
-  mix-blend-mode: lighten;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  */
 }
 
 .section-banner .banner-content h1 {
   font-size: 100px;
-  text-align: center;
-  color: #C5F2F0;
+
+  color: #fafafa;
   line-height: 1.2;
   letter-spacing: -.04em;
 }
 
 .section-banner .banner-content span {
-  color: #C5F2F0;
+  color: #fafafa;
   font-size: 18px;
 }
 
