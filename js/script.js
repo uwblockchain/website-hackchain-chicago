@@ -2,9 +2,6 @@
 
 	'use strict';
 
-
-
-
 	/*START GOOGLE MAP*/
 	function initialize() {
 	var mapOptions = {
@@ -23,27 +20,38 @@
 	google.maps.event.addDomListener(window, 'load', initialize);
 	/*END GOOGLE MAP*/
 
+// Hide & show method for FAQs
 
+// function toggleVisibility() {
+//   var x = document.getElementById("answer");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
+// New hide and show method for FAQ section
+$(document).ready(function() {
+	$('[data-toggle="collapse"]').click(function() {
+		$(this).toggleClass( "active" );
+		if ($(this).hasClass("active")) {
+			$(this).text("Hide");
+		} else {
+			$(this).text("Show");
+		}
+	});
+	});
 
 // Count Down JS
-
  $('#simple-timer').syotimer({
-    year: 2020,
-    month: 5,
-    day: 22,
+    year: 2021,
+    month: 4,
+    day: 17,
     hour: 7,
     minute: 1
 });
-
-
-
-
     $(document).ready(function () {
-
-
-
-
 	$('#contact-form').validate({
 		rules: {
 			user_name: {
@@ -69,16 +77,13 @@
 			user_email: {
 				required: 'Please put your email address'
 			},
-
 			user_phone: {
 				required: 'Please put your Phone Number'
 			},
-
 			user_message: {
 				required: 'Put some messages here?',
 				minlength: 'Your name must consist of at least 2 characters'
 			}
-
 		},
 		submitHandler: function (form) {
 			$(form).ajaxSubmit({
@@ -89,15 +94,11 @@
 					$('#contact-form #success').fadeIn();
 				},
 				error: function () {
-
 					$('#contact-form #error').fadeIn();
 				}
 			});
 		}
 	});
-
-
-
 });
 
 })(jQuery);
